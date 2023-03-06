@@ -1,0 +1,122 @@
+<%= form_with(model: unit) do |form| %>
+  <% if unit.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(unit.errors.count, "error") %> prohibited this unit from being saved:</h2>
+
+      <ul>
+        <% unit.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :char_name, style: "display: block" %>
+    <%= form.text_field :char_name %>
+  </div>
+
+  <div>
+    <%= form.label :b_lvl, style: "display: block" %>
+    <%= form.number_field :b_lvl %>
+  </div>
+
+  <div>
+    <%= form.label :b_hp, style: "display: block" %>
+    <%= form.number_field :b_hp %>
+  </div>
+
+  <div>
+    <%= form.label :b_str, style: "display: block" %>
+    <%= form.number_field :b_str %>
+  </div>
+
+  <div>
+    <%= form.label :b_mag, style: "display: block" %>
+    <%= form.number_field :b_mag %>
+  </div>
+
+  <div>
+    <%= form.label :b_dex, style: "display: block" %>
+    <%= form.number_field :b_dex %>
+  </div>
+
+  <div>
+    <%= form.label :b_spd, style: "display: block" %>
+    <%= form.number_field :b_spd %>
+  </div>
+
+  <div>
+    <%= form.label :b_def, style: "display: block" %>
+    <%= form.number_field :b_def %>
+  </div>
+
+  <div>
+    <%= form.label :b_res, style: "display: block" %>
+    <%= form.number_field :b_res %>
+  </div>
+
+  <div>
+    <%= form.label :b_lck, style: "display: block" %>
+    <%= form.number_field :b_lck %>
+  </div>
+
+  <div>
+    <%= form.label :b_bld, style: "display: block" %>
+    <%= form.number_field :b_bld %>
+  </div>
+
+  <div>
+    <%= form.label :b_mov, style: "display: block" %>
+    <%= form.number_field :b_mov %>
+  </div>
+
+  <div>
+    <%= form.label :g_hp, style: "display: block" %>
+    <%= form.number_field :g_hp %>
+  </div>
+
+  <div>
+    <%= form.label :g_str, style: "display: block" %>
+    <%= form.number_field :g_str %>
+  </div>
+
+  <div>
+    <%= form.label :g_mag, style: "display: block" %>
+    <%= form.number_field :g_mag %>
+  </div>
+
+  <div>
+    <%= form.label :g_dex, style: "display: block" %>
+    <%= form.number_field :g_dex %>
+  </div>
+
+  <div>
+    <%= form.label :g_spd, style: "display: block" %>
+    <%= form.number_field :g_spd %>
+  </div>
+
+  <div>
+    <%= form.label :g_def, style: "display: block" %>
+    <%= form.number_field :g_def %>
+  </div>
+
+  <div>
+    <%= form.label :g_res, style: "display: block" %>
+    <%= form.number_field :g_res %>
+  </div>
+
+  <div>
+    <%= form.label :g_lck, style: "display: block" %>
+    <%= form.number_field :g_lck %>
+  </div>
+
+  <div>
+    <%= form.label :g_bld, style: "display: block" %>
+    <%= form.number_field :g_bld %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

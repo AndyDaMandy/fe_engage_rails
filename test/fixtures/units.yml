@@ -1,0 +1,47 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  char_name: MyString
+  b_lvl: 1
+  b_hp: 1
+  b_str: 1
+  b_mag: 1
+  b_dex: 1
+  b_spd: 1
+  b_def: 1
+  b_res: 1
+  b_lck: 1
+  b_bld: 1
+  b_mov: 1
+  g_hp: 1
+  g_str: 1
+  g_mag: 1
+  g_dex: 1
+  g_spd: 1
+  g_def: 1
+  g_res: 1
+  g_lck: 1
+  g_bld: 1
+
+two:
+  char_name: MyString
+  b_lvl: 1
+  b_hp: 1
+  b_str: 1
+  b_mag: 1
+  b_dex: 1
+  b_spd: 1
+  b_def: 1
+  b_res: 1
+  b_lck: 1
+  b_bld: 1
+  b_mov: 1
+  g_hp: 1
+  g_str: 1
+  g_mag: 1
+  g_dex: 1
+  g_spd: 1
+  g_def: 1
+  g_res: 1
+  g_lck: 1
+  g_bld: 1
