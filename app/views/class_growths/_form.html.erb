@@ -1,0 +1,72 @@
+<%= form_with(model: class_growth) do |form| %>
+  <% if class_growth.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(class_growth.errors.count, "error") %> prohibited this class_growth from being saved:</h2>
+
+      <ul>
+        <% class_growth.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :class_name, style: "display: block" %>
+    <%= form.text_field :class_name %>
+  </div>
+
+  <div>
+    <%= form.label :class_rank, style: "display: block" %>
+    <%= form.check_box :class_rank %>
+  </div>
+
+  <div>
+    <%= form.label :hp, style: "display: block" %>
+    <%= form.number_field :hp %>
+  </div>
+
+  <div>
+    <%= form.label :str, style: "display: block" %>
+    <%= form.number_field :str %>
+  </div>
+
+  <div>
+    <%= form.label :mag, style: "display: block" %>
+    <%= form.number_field :mag %>
+  </div>
+
+  <div>
+    <%= form.label :dex, style: "display: block" %>
+    <%= form.number_field :dex %>
+  </div>
+
+  <div>
+    <%= form.label :spd, style: "display: block" %>
+    <%= form.number_field :spd %>
+  </div>
+
+  <div>
+    <%= form.label :def, style: "display: block" %>
+    <%= form.number_field :def %>
+  </div>
+
+  <div>
+    <%= form.label :res, style: "display: block" %>
+    <%= form.number_field :res %>
+  </div>
+
+  <div>
+    <%= form.label :lck, style: "display: block" %>
+    <%= form.number_field :lck %>
+  </div>
+
+  <div>
+    <%= form.label :bld, style: "display: block" %>
+    <%= form.number_field :bld %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

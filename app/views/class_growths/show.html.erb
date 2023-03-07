@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @class_growth %>
+
+<div>
+  <%= link_to "Edit this class growth", edit_class_growth_path(@class_growth) %> |
+  <%= link_to "Back to class growths", class_growths_path %>
+
+  <%= button_to "Destroy this class growth", @class_growth, method: :delete %>
+</div>

@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Class growths</h1>
+
+<div id="class_growths">
+  <% @class_growths.each do |class_growth| %>
+    <%= render class_growth %>
+    <p>
+      <%= link_to "Show this class growth", class_growth %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New class growth", new_class_growth_path %>

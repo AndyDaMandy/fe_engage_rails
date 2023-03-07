@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  class_name: MyString
+  class_rank: false
+  hp: 1
+  str: 1
+  mag: 1
+  dex: 1
+  spd: 1
+  def: 1
+  res: 1
+  lck: 1
+  bld: 1
+
+two:
+  class_name: MyString
+  class_rank: false
+  hp: 1
+  str: 1
+  mag: 1
+  dex: 1
+  spd: 1
+  def: 1
+  res: 1
+  lck: 1
+  bld: 1

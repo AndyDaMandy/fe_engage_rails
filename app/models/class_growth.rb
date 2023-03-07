@@ -1,0 +1,2 @@
+class ClassGrowth < ApplicationRecord
+end
