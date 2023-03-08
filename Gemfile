@@ -27,7 +27,18 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+#devise for login
+#https://github.com/heartcombo/devise
 gem "devise"
+
+#annotate_models for annotation
+# https://github.com/ctran/annotate_models
+group :development do
+  gem 'annotate'
+end
+group :development do
+  gem 'annotate', git: 'https://github.com/ctran/annotate_models.git'
+end
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
@@ -72,3 +83,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "cssbundling-rails", "~> 1.1"
