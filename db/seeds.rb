@@ -54,11 +54,11 @@ units = Unit.create(
         {
             char_name: "Alear",
             b_lvl: 1,
-            b_hp: 1
-            b_str: 1,
-            b_mag: 1,
-            b_dex: 1,
-            b_spd: 1,
+            b_hp: 22,
+            b_str: 6,
+            b_mag: 0,
+            b_dex: 5,
+            b_spd: 7,
             b_def: 1,
             b_res: 1,
             b_lck: 1,
