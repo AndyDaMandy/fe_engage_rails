@@ -36,9 +36,6 @@ gem "devise"
 group :development do
   gem 'annotate'
 end
-group :development do
-  gem 'annotate', git: 'https://github.com/ctran/annotate_models.git'
-end
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
@@ -85,3 +82,5 @@ group :test do
 end
 
 gem "cssbundling-rails", "~> 1.1"
+
+gem "jsbundling-rails", "~> 1.1"
